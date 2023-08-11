@@ -92,7 +92,7 @@ void main() async {
 Future<void> getDeviceId() async {
   var deviceInfo = DeviceInfoPlugin();
   if (Platform.isIOS) {
-    // import 'dart:io'
+    // import 'git remote add origin git@github.com:chaubeyprashant/hrm.gitdart:io'
     var iosDeviceInfo = await deviceInfo.iosInfo;
     final result =
         '${iosDeviceInfo.name}-${iosDeviceInfo.model}-${iosDeviceInfo.identifierForVendor}';
